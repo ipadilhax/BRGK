@@ -59,6 +59,21 @@
     text-align: center;
 }
 
+.page {
+    min-height: 85.2vh;
+    width: 100%;
+}
+
+.footer {
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
 /* #menu {
     display: flex;
     background-color: var(--bkg-header);
