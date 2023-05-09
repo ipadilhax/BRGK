@@ -1,0 +1,155 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bkg-header: #002333;
+}
+
+/* #menu {
+    display: flex;
+    background-color: var(--bkg-header);
+    align-items: center;
+    height: 12vh;
+    justify-content: space-around;
+}
+
+#navegation {
+    display: flex;
+    gap: 60px;
+    font-size: 30px;
+}
+
+#navegation li a {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#navegation li a:hover {
+    border-bottom: 10px #FFF;
+}
+
+#logo {
+    width: 8vh;
+}
+
+#menu-mobile {
+    display: none;
+}
+
+.loginSearch {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#btnLogin {
+    color: white;
+    font-weight: 700;
+    width: 70px;
+    height: 7vh;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 2.5vh;
+}
+
+#input-search {
+    background-color: #094A68;
+    color: #FFF;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+@media screen and (max-width:430px) {    
+    #logo {
+        width: 7.5vh;
+    }
+    
+    .fa {
+        font-size: 4vh;
+        color: white;
+        height: 4vh;
+        width: 100%;
+    }
+
+    .fa-times {
+        font-size: 4.5vh;
+    }
+
+    .search {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #menu {
+        justify-content: space-around;
+        gap: 30px;
+        height: 15vh;
+        align-items: center;
+    }
+    
+    #navegation {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    #navegation li a {
+        color: #000;
+        font-size: 22px;
+    }
+    
+    #menu-mobile {
+        display: flex;
+        height: 20px;
+        width: 20px;
+        align-items: center;
+    }
+
+    #menu-mobile.fa-bars {
+        margin-bottom: -5px;
+    }
+
+    #menu-mobile.fa-times {
+        margin-bottom: -9px;
+    }
+    
+    header nav {
+        position: absolute;
+        background-color: cornsilk;
+        left: -100%;
+        top: 15vh;
+        background-color: cornsilk;
+        transition: left .3s linear;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+
+    #input-search {
+        position: absolute;
+        left: -100%;
+        top: 16vh;
+        transition: left .3s linear;
+        width: 90%;
+    }
+}
+ */
