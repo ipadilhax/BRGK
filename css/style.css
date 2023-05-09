@@ -12,6 +12,53 @@
     --bkg-header: #002333;
 }
 
+.nav-local {
+    background-color: var(--bkg-header) !important;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.bars-local {
+    color: white !important;
+    border: white !important;
+    background-color: white !important;
+}
+
+.toggler-local {
+    color: white !important;
+    border: white !important;
+    background-color: white !important;
+}
+
+.link-local {
+    color: #FFF !important;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.link-local.disabled {
+    color: rgb(140, 140, 140) !important;
+    user-select: none;
+}
+
+.navBarNav-local {
+    display: flex;
+    width: 100%;
+    flex: 1;
+    justify-content: center;
+}
+
+.user-local {
+    margin-left: 8px;
+}
+
+.loginCascat-local {
+    text-align: center;
+}
+
 /* #menu {
     display: flex;
     background-color: var(--bkg-header);
