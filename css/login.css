@@ -1,0 +1,10 @@
+.page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.formContact {
+    margin-top: 40px;
+    width: 80%;
+}
