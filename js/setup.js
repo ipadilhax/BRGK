@@ -1,13 +1,16 @@
-console.log(window.screen.height);
+// // console.log(window.screen.height);
 
-console.log(document.getElementById("page").clientHeight)
+// let page2 = document.getElementById("page");
+// let header = document.getElementById("header").clientHeight;
+// let footer = document.getElementById("footer").clientHeight;
 
-let page = document.querySelector("page");
-let header = document.querySelector("header");
-let footer = document.querySelector("footer");
-// let screenFooter = (header.style.height + footer.style.height) - window.screen.height;
-console.log(header.style.height)
-console.log(footer.style.height)
-console.log(page.style.height)
-// console.log(screenFooter)
-// page.style.height = screenFooter;
+// console.log(header);
+// console.log(footer);
+
+// // let elements = window.screen.height - (header + footer);
+
+// // page2.style.height = elements;
+
+// // console.log("elements", elements);
+// // let page = document.getElementById("page").clientHeight;
+// // console.log(page);

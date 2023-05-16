@@ -15,51 +15,50 @@
     <title>BRGK - Quem Somos?</title>
 </head>
 <body>
-    <main>
-        <header class="header">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo-escrito.png" alt="Logo"></a>
-                    <button class="navbar-toggler toggler-local" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bars-local"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBarNav-local">
-                            <li class="nav-item">
-                                <a class="nav-link link-local active" aria-current="page" href="./index.html">Início</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-local" href="./servicos.html">Serviços</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-local" href="./galeria.html">Galeria</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-local" href="./contato.html">Contato</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-local disabled" href="./restrita.html">Área Restrita</a>
-                            </li>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo-escrito.png" alt="Logo"></a>
+                <button class="navbar-toggler toggler-local" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon bars-local"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBarNav-local">
+                        <li class="nav-item">
+                            <a class="nav-link link-local active" aria-current="page" href="./index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-local" href="./servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-local" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-local" href="./contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-local disabled" href="./restrita.html">Área Restrita</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success fa fa-search" type="submit"></button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-success dropdown-toggle user-local" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa fa-user"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end loginCascat-local">
+                            <li><a class="dropdown-item" href="./login.html">Entrar</a></li>
+                            <li><a class="dropdown-item" href="./sign-in.html">Inscrever-se</a></li>
                         </ul>
-                        <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                        <button class="btn btn-outline-success fa fa-search" type="submit"></button>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-outline-success dropdown-toggle user-local" data-bs-toggle="dropdown" aria-expanded="false">
-                              <i class="fa fa-user"></i>
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-end loginCascat-local">
-                                <li><a class="dropdown-item" href="./login.html">Entrar</a></li>
-                                <li><a class="dropdown-item" href="./sign-in.html">Inscrever-se</a></li>
-                            </ul>
-                          </div>
-                        </form>
-                    </div>
+                      </div>
+                    </form>
                 </div>
-            </nav>
-        </header>
-        <div class="page" id="page">
-            <form class="formContact">
+            </div>
+        </nav>
+    </header>
+    <main id="page">
+        <form class="formContact">
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -74,18 +73,17 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Lembrar</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
-              </form>
-        </div>
-        <footer class="bg-light text-center text-lg-start footer">
-            <!-- Copyright -->
-            <div class="footer text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2023 Copyright BRGK:
-              <a class="text-dark" href="./quemsomos.html">Quem Somos?</a>
-            </div>
-            <!-- Copyright -->
-        </footer>
+                <button type="submit" class="btn btn-primary" style="background-color: #002333;">Entrar</button>
+        </form>
     </main>
+    <footer id="footer" class="bg-light text-center text-lg-start footer">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright BRGK:
+          <a class="text-dark" href="./quemsomos.html">Quem Somos?</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
     <script src="./js/setup.js"></script>

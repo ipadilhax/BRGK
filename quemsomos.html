@@ -11,11 +11,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/quemsomos.css">
     <title>BRGK - Quem Somos?</title>
 </head>
 <body>
-    <main>
-        <header>
+    <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo-escrito.png" alt="Logo"></a>
@@ -56,17 +56,81 @@
                     </div>
                 </div>
             </nav>
-        </header>
-        <div class="page"></div>
-        <footer class="bg-light text-center text-lg-start">
-            <!-- Copyright -->
-            <div class="footer text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2023 Copyright BRGK:
-              <a class="text-dark" href="./quemsomos.html">Quem Somos?</a>
+    </header>
+    <main>
+        <!-- <div id="page">
+            <div id="divFotos">
+                <div class="boxContent">
+                    <img class="fotos" src="img/ruan.jpg" alt="Ruan">
+                    <center><p>Ruan Padilha</p></center>
+                    <div class="perfis">
+                        <a href="https://instagram.com/ipadilhax/" class="imgInsta" target="blend"><img class="insta" src="img/insta.webp" alt="Instagram"></a><a class="userInsta" target="blend" href="https://instagram.com/ipadilhax/">@ipadilhax</a>
+                    </div>
+                </div>
+                <div class="boxContent">
+                    <img class="fotos" src="img/bianca.jpg" alt="Bianca">
+                    <center><p>Bianca Maran da Silva<p></center>
+                    <div class="perfis">
+                        <a href="https://instagram.com/biancamaraan/" class="imgInsta" target="blend"><img class="insta" src="img/insta.webp" alt="Instagram"></a><a class="userInsta" target="blend" href="https://instagram.com/biancamaraan/">@biancamaran</a>
+                    </div>
+                </div>
+                <div class="boxContent">
+                    <img class="fotos" src="img/gustavo.jpg" alt="Gustavo">
+                    <center><p>Gustavo Pontôlio Rosário</p></center>
+                    <div class="perfis">
+                        <a href="https://instagram.com/gustavopontolio/" class="imgInsta" target="blend"><img class="insta" src="img/insta.webp" alt="Instagram"></a><a class="userInsta" target="blend" href="https://instagram.com/gustavopontolio/">@gustavopontolio</a>
+                    </div>
+                </div>
+                <div class="boxContent">
+                    <img class="fotos" src="img/kelvin.jpg" alt="Kelvin">
+                    <center><p>Kelvin Leonardo Lopes dos Santos</p></center>
+                    <div class="perfis">
+                        <a href="https://instagram.com/kelvinleonardo66/" class="imgInsta" target="blend"><img class="insta" src="img/insta.webp" alt="Instagram"></a><a class="userInsta" target="blend" href="https://instagram.com/kelvinleonardo66/">@kelvinleonardo66</a>
+                    </div>
+                </div>
             </div>
-            <!-- Copyright -->
-        </footer>
+        </div> -->
+        <main id="page">
+            <div class="cardsLine">
+                <div class="card text-center" style="width: 23rem;">
+                    <img src="./img/ruan.jpg" class="card-img-top" alt="...">
+                    <div class="card-body cardyPerson">
+                        <h5 class="card-title">Ruan Padilha</h5>
+                        <a href="https://instagram.com/ipadilhax/" class="btn btn-primary instaBtn"><i class="fa-brands fa-instagram"></i>@ipadilhax</a>
+                    </div>
+                </div>
+                <div class="card text-center" style="width: 23rem;">
+                    <img src="./img/bianca.jpg" class="card-img-top" alt="...">
+                    <div class="card-body cardyPerson">
+                        <h5 class="card-title">Bianca Maran da Silva</h5>
+                        <a href="https://instagram.com/biancamaraan/" class="btn btn-primary instaBtn"><i class="fa-brands fa-instagram"></i>@biancamaran</a>
+                    </div>
+                </div>
+                <div class="card text-center" style="width: 23rem;">
+                    <img src="./img/gustavo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body cardyPerson">
+                        <h5 class="card-title">Gustavo Pontôlio Rosário</h5>
+                        <a href="https://instagram.com/pontolioo/" class="btn btn-primary instaBtn"><i class="fa-brands fa-instagram"></i>@pontolioo</a>
+                    </div>
+                </div>
+                <div class="card text-center" style="width: 23rem;">
+                    <img src="./img/kelvin.jpg" class="card-img-top" alt="...">
+                    <div class="card-body cardyPerson">
+                        <h5 class="card-title">Kelvin Leonardo Lopes dos Santos</h5>
+                        <a href="https://instagram.com/kelvinleonardo66/" class="btn btn-primary instaBtn"><i class="fa-brands fa-instagram"></i>@kelvinleonardo66</a>
+                    </div>
+                </div>
+            </div>
+        </main>
     </main>
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="footer text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright BRGK:
+          <a class="text-dark" href="./quemsomos.html">Quem Somos?</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>

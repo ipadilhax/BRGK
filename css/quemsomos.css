@@ -1,0 +1,38 @@
+#page {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.cardyPerson {
+    justify-content: center;
+}
+
+.instaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    transition: all 300ms;
+}
+
+.instaBtn:hover {
+    scale: 1.05;
+}
+
+.cardsLine {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 430px) {
+    .cardsLine {
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
