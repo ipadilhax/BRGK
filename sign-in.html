@@ -11,12 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/login.css">
-    <title>BRGK - Quem Somos?</title>
+    <link rel="stylesheet" href="./css/signin.css">
+    <title>BRGK - Inscrever-se</title>
 </head>
 <body>
     <main>
-        <header class="header" id="header">
+        <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo-escrito.png" alt="Logo"></a>
@@ -49,8 +49,8 @@
                               <i class="fa fa-user"></i>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end loginCascat-local">
-                                <li><a class="dropdown-item" href="./login.html">Entrar</a></li>
-                                <li><a class="dropdown-item" href="./sign-in.html">Inscrever-se</a></li>
+                              <li><a class="dropdown-item" href="./login.html">Entrar</a></li>
+                              <li><a class="dropdown-item" href="./sign-in.html">Inscrever-se</a></li>
                             </ul>
                           </div>
                         </form>
@@ -58,26 +58,33 @@
                 </div>
             </nav>
         </header>
-        <div class="page" id="page">
+        <div id="page">
             <form class="formContact">
+                <div class="mb-3">
+                    <label for="exampleInputText1" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="exampleInputText1" aria-describedby="emailHelp">
+                  </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">
-                    Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                  <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Senha</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputUsuario1" class="form-label">Usuário</label>
+                  <input type="text" class="form-control" id="exampleInputUsuario1">
                 </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Lembrar</label>
+                <div class="mb-3">
+                  <label for="exampleInputSenha1" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputSenha1">
                 </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <div class="mb-3">
+                  <label for="exampleInputConfirmar1" class="form-label">Confirmar Senha</label>
+                  <input type="password" class="form-control" id="exampleInputConfirmar1">
+                </div>
+                <button type="submit" class="btn btn-primary" style="background-color: #002333;">Inscrever-se</button>
               </form>
         </div>
-        <footer class="bg-light text-center text-lg-start footer" id="footer">
+        <footer class="bg-light text-center text-lg-start">
             <!-- Copyright -->
             <div class="footer text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
               © 2023 Copyright BRGK:
