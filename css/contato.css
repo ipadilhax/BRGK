@@ -6,9 +6,24 @@
 }
 
 .formContact {
+    max-width: 800px;
     width: 80%;
+    border: 5px #002333 solid;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .aviso {
     margin-top: 10px;
+}
+
+@media screen and (max-width: 430px) {
+    .formContact {
+        width: 90%;
+        border: 5px #002333 solid;
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
