@@ -17,6 +17,10 @@
     margin-top: 10px;
 }
 
+#liveAlertPlaceholder {
+    margin-top: 10px;
+}
+
 @media screen and (max-width: 430px) {
     .formContact {
         width: 90%;
