@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/area-restrita.css">
+    <title>BRGK - Área Restrita</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo-escrito.png" alt="Logo"></a>
+                    <button class="navbar-toggler toggler-local" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bars-local"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBarNav-local">
+                            <li class="nav-item">
+                                <a class="nav-link link-local active" aria-current="page" href="./index.html">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-local" href="./servicos.html">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-local" href="./galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-local" href="./contato.html">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <p class="nav-link link-local" href="./restrita.html" style="cursor: default; user-select: none; text-decoration: underline;">Área Restrita</p>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                        <button class="btn btn-outline-success fa fa-search" type="submit"></button>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-outline-success dropdown-toggle user-local" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa fa-user"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end loginCascat-local">
+                              <li><a class="dropdown-item" href="./login.html">Entrar</a></li>
+                              <li><a class="dropdown-item" href="./sign-in.html">Inscrever-se</a></li>
+                            </ul>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="page">
+            <h1>Mensagens</h1>
+            <div class="accordion" id="accordionExample">
+                <div id="liveAlertPlaceholder"></div>
+                <div id="liveAlertPlaceholder5"></div>
+                <div class="accordion-item roberto">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      Roberto (Entrega atrasada)
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <b>Nome: </b><p>Roberto da Silva Costa</p>
+                        <b>Email: </b><p>robertocosta598@gmail.com</p>
+                        <b>Assunto: </b><p>Entrega atrasada</p>
+                        <b>Mensagem: </b><p>Realizei a compra de uma camisa do Bragantino há duas semanas, 3 dias a mais da data proposta, vocês não teriam um código de rastreio para mim ficar mais informado?
+                        </p>
+                        <button type="button" class="btn btn-primary btn-sm" style="background-color: #002333" onclick="responderRoberto()">Responder</button>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarRoberto()" id="liveAlertBtn1">Ignorar</button>
+                        <div class="inToggleRoberto actived">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Responder" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Responder</label>
+                          </div>
+                          <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarRoberto()" id="liveAlertBtn5"><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="liveAlertPlaceholder2"></div>
+                <div id="liveAlertPlaceholder6"></div>
+                <div class="accordion-item claudia">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Cláudia (Camisa rasgada)
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <b>Nome: </b><p>Cláudia Santos de Camargo</p>
+                        <b>Email: </b><p>claudiasantos362@gmail.com</p>
+                        <b>Assunto: </b><p>Camisa rasgada</p>
+                        <b>Mensagem: </b><p>Adquiri uma camisa do Corinthians e foi entregue rasgada, peço reembolso ou restorno da compra.</p>
+                        <button type="button" class="btn btn-primary btn-sm" style="background-color: #002333" onclick="responderClaudia()">Responder</button>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarClaudia()" id="liveAlertBtn2">Ignorar</button>
+                        <div class="inToggleClaudia actived">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Responder" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Responder</label>
+                          </div>
+                          <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarClaudia()" id="liveAlertBtn6"><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="liveAlertPlaceholder3"></div>
+                <div id="liveAlertPlaceholder7"></div>
+                <div class="accordion-item milton">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Milton (Cobrança dupla)
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <b>Nome: </b><p>Milton Brito Guimarães
+                        </p>
+                        <b>Email: </b><p>miltonbrito375@gmail.com</p>
+                        <b>Assunto: </b><p>Cobrança dupla</p>
+                        <b>Mensagem: </b><p>Fiz a compra de uma camisa do Palmeiras e foi cobrado o valor de duas camisas no meu cartão, queria o restorno de a que foi cobrada a mais.</p>
+                        <button type="button" class="btn btn-primary btn-sm" style="background-color: #002333" onclick="responderMilton()">Responder</button>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarMilton()" id="liveAlertBtn3">Ignorar</button>
+                        <div class="inToggleMilton actived">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Responder" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Responder</label>
+                          </div>
+                          <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarMilton()" id="liveAlertBtn7"><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="liveAlertPlaceholder4"></div>
+                <div id="liveAlertPlaceholder8"></div>
+                <div class="accordion-item jurema">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Jurema (Envio errado)
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <b>Nome: </b><p>Jurema Aparecida Gomes</p>
+                        <b>Email: </b><p>jugomes456@gmail.com</p>
+                        <b>Assunto: </b><p>Envio errado</p>
+                        <b>Mensagem: </b><p>Comprei uma camisa do São Paulo e foi entregue em minha residência uma camisa do Santos, desejo o reembolso ou a troca corretamente.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-sm" style="background-color: #002333" onclick="responderJurema()">Responder</button>
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarJurema()" id="liveAlertBtn4">Ignorar</button>
+                        <div class="inToggleJurema actived">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Responder" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Responder</label>
+                          </div>
+                          <button type="button" class="btn btn-secondary btn-sm" onclick="ignorarJurema()" id="liveAlertBtn8"><i class="fa fa-arrow-right"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <footer class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="footer text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2023 Copyright BRGK:
+              <a class="text-dark" href="./quemsomos.html">Quem Somos?</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

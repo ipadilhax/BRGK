@@ -18,7 +18,7 @@
 }
 
 .imgItens {
-    height: 250px;
+    height: 80%;
 }
 
 .itemShirt {
@@ -40,7 +40,6 @@
 
 .horizontal {
     display: flex;
-    gap: 55px;
     width: 100%;
     justify-content: center;
     margin-bottom: 80px;
@@ -50,6 +49,7 @@
     .horizontal {
         display: grid;
         margin-bottom: 55px;
+        gap: 55px;
     }
 
     .imgItens {

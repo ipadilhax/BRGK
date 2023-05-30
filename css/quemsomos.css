@@ -27,6 +27,10 @@
     justify-content: space-around;
 }
 
+.card {
+    width: 23%;
+}
+
 @media screen and (max-width: 430px) {
     .cardsLine {
         flex-direction: column;
@@ -34,5 +38,9 @@
         margin-top: 20px;
         margin-bottom: 20px;
         align-items: center;
+    }
+
+    .card {
+        width: 90%;
     }
 }

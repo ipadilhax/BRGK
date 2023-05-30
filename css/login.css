@@ -9,3 +9,13 @@
 .formContact {
     width: 80%;
 }
+
+#error {
+    display: none;
+    color: red;
+    margin-top: 5px;
+}
+
+#error.active {
+    display: block;
+}

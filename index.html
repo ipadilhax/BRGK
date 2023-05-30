@@ -16,7 +16,7 @@
 <body>
     <main>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-local navIndex">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/logo-escrito.png" alt="Logo"></a>
                     <button class="navbar-toggler toggler-local" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBarNav-local">
                             <li class="nav-item">
-                                <a class="nav-link link-local active" aria-current="page" href="./index.html">Início</a>
+                                <a class="nav-link link-local active pageActive" aria-current="page" href="./index.html">Início</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link link-local" href="./servicos.html">Serviços</a>
@@ -56,8 +56,33 @@
                     </div>
                 </div>
             </nav>
+            <div class="blueDiv"></div>
         </header>
-        <div class="page"></div>
+        <main id="page" class="index">
+            <div class="pageIn">
+                <img src="./img/banner.png" alt="Banner" class="banner">
+                <h1 class="tituloIndex">BRGK</h1>
+                <P class="textIndex">Nós somos uma equipe de desenvolvedores do site e empresa BRGK, e líderes do design de prototipação comandado por Bianca Maran, Ruan Padilha, Gustavo Pontólio e Kelvin Leonardo. Nossa proposta de inovação é grande e completamente exclusiva, com um site interativo e uma empresa bem organizada e preparada sistematicamente para melhor serviço e pronta entrega aos nossos clientes, prezando sempre por conforto, produtos de qualidade com segurança ao usuário, frisando a exclusividade além de preços acessíveis.</P>
+                <div class="btnDesktop">
+                    <a href="./servicos.html"><button type="button" class="btn btn-primary btn-lg" style="background-color: #002333;">Comprar</button></a>
+                    <a href="./contato.html"><button type="button" class="btn btn-primary btn-lg" style="background-color: #002333;">Contato</button></a>
+                    <a href="./quemsomos.html"><button type="button" class="btn btn-primary btn-lg" style="background-color: #002333;">Quem Somos?</button></a>
+                    
+                    
+                    
+                </div>
+                <div class="btnMobile">
+                    <a href="./servicos.html"><button type="button" class="btn btn-primary btn-sml" style="background-color: #002333;">Comprar</button></a>
+                    <a href="./contato.html"><button type="button" class="btn btn-primary btn-sml" style="background-color: #002333;">Contato</button></a>
+                    <a href="./quemsomos.html"><button type="button" class="btn btn-primary btn-sml" style="background-color: #002333;">Quem Somos?</button></a>
+                    
+                    
+                    
+                </div>
+                
+            </div>
+            
+        </main>
         <footer class="bg-light text-center text-lg-start">
             <!-- Copyright -->
             <div class="footer text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
