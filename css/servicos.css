@@ -44,6 +44,7 @@
   width: 100%;
   justify-content: center;
   margin-bottom: 80px;
+  flex-wrap: wrap;
 }
 
 .imgCapa {
@@ -72,7 +73,12 @@
   margin-top: 100px;
 }
 
-@media screen and (max-width: 430px) {
+#tableCommerce {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+@media screen and (max-width: 800px) {
   .horizontal {
       display: grid;
       margin-bottom: 55px;
