@@ -21,7 +21,7 @@
     margin-top: 10px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 800px) {
     .formContact {
         width: 90%;
         border: 5px #002333 solid;

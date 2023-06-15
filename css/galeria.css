@@ -45,7 +45,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 800px) {
     .horizontal {
         display: grid;
         gap: 55px;

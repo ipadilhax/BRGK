@@ -31,7 +31,7 @@
     width: 23%;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 800px) {
     .cardsLine {
         flex-direction: column;
         gap: 30px;

@@ -134,7 +134,7 @@
     text-decoration:underline;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 800px) {
     .pageIn {
         text-align: center;
         margin-top: 0 !important;
